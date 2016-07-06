@@ -1,0 +1,11 @@
+The program is able to print successfully the introductory paragraph of Wikipedia. The program is able to do bonus points i.e. if the topic can be provided as a command-line argument as well as at a prompt if no argument is provided. 
+After reading the programming exercise, I get to know I need to connect to real time internet and get some data. For that I used Jsoup library.
+Jsoup: jsoup is a Java library for working with real-world HTML. It provides a very convenient API for extracting and manipulating data, using the best of DOM, CSS, and jquery-like methods.
+Using Jsoup library methods, program is able to connect to internet and extract the necessary information without HTML tags.
+There is a need to capitalize first letter of every word. Because if 
+our topic is :harsha vardhan
+https://en.wikipedia.org/wiki/Harsha_Vardhan -Prints the introductory paragraph.
+
+https://en.wikipedia.org/wiki/Harsha_vardhan    - page not found
+So for capitalizing every first letter of the word I used apache-commons-Lang.jar library.
+Capitalize(String) – Method of WordUtils class of commons-Lang library used to achieve the required functionality.
